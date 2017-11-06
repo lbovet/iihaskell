@@ -1,7 +1,6 @@
 # iihaskell
 
-A customized (IHaskell)[https://github.com/gibiansky/IHaskell] for educational purpose.
-
+A customized [IHaskell](https://github.com/gibiansky/IHaskell) for educational purpose.
 Customizations are:
 
 - Prelude is not loaded (NoImplicitPrelude)
