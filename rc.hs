@@ -13,7 +13,7 @@ plotr f s i e = EP.toRenderable(do
     EP.setColors [opaque blue, opaque red]
     EP.plot (EP.line "" [d])
     EP.plot (EP.points "" d))
-    where d = [(x,f(x)) | x <- [s,i..e]]
+    where d = [(x,f(x)) | x <- [s,s+i..e]]
 plot f = plotr f 0 1 10
 
 draw shapes = EP.toRenderable (do
